@@ -1,0 +1,203 @@
+/* header breadcrumb */
+.inner-banner {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.w3l-breadcrumb {
+  display: block;
+  margin: 0 auto;
+  z-index: 100;
+  z-index: 99;
+}
+.w3l-breadcrumb a{
+  font-size: 1.1rem;
+  color: #898989;
+}
+ul.breadcrumbs-custom-path a:hover {
+  opacity: 1;
+  color: #fb811e;
+}
+.w3l-breadcrumb p{
+  font-size: 1rem;
+}
+ul.breadcrumbs-custom-path {
+  line-height: 1.5;
+  color: #707070;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+ul.breadcrumbs-custom-path a {
+  font-weight: bold;
+}
+/* CODE OF LUAN */
+.blog_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.blog_left {
+  max-width: 66%;
+}
+.blog_card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.blog_card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog_detail {
+  margin-top: 50px;
+}
+.blog_detail h6 {
+  display: inline-block;
+  font-size: 16px;
+  /* line-height: 25px; */
+  color: #707070;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.blog_detail .by {
+  color: #fb811e;
+  text-decoration: none;
+}
+.blog_detail .desc {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn-fix {
+  width: 145px;
+}
+/* .blog_detail button{
+    background-color: #fb811e;
+    font-weight: 600;
+    color: #eeeeee;
+    width: 130px;
+    height: 50px;
+    border-radius: 25px;
+    border: #fb811e;
+    transition: all 0.5s;
+}
+.blog_detail button:hover{
+    background-color: #009f4d ;
+    color: #eeeeee;
+} */
+.blog_right {
+  max-width: 33%;
+  padding: 0 70px;
+}
+.blog_right ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.blog_right a {
+  /* text-decoration: none; */
+  color: black;
+}
+.blog_right h2 {
+  font-weight: 650;
+  font-size: 25px;
+}
+.blog_right .right_search .search-field {
+  border: 1px solid #eee;
+  width: 298px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+.blog_right .right_search .search-field:focus {
+  border: 1px solid #434242;
+}
+.blog_right .right_search .search-submit {
+  padding: 10px;
+  margin-left: -71px;
+  color: #ffffff;
+  background-color: #fb811e;
+  border: none;
+  border-radius: 5px;
+}
+.blog_right .right_posts {
+  margin-top: 30px;
+}
+.blog_right .right_posts a {
+  text-transform: capitalize;
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+.blog_right .right_comments {
+  margin: 20px 0;
+}
+.blog_right .recentcomments {
+  padding: 10px 0;
+}
+.blog_right .right_comments a {
+  color: #fb811e;
+  font-weight: 600;
+}
+.blog_right .right_comments a:hover {
+  text-decoration: underline;
+}
+
+.blog_right .right_archives,
+.blog_right .right_categories,
+.blog_right .right_meta {
+  /* border-bottom: 1px solid #eeeeee; */
+  line-height: 40px;
+  margin-top: 20px;
+}
+.blog_right .right_posts li,
+.blog_right .right_archives ul,
+.blog_right .right_categories ul,
+.blog_right .right_meta ul {
+  border-bottom: 1px solid #eeeeee;
+}
+.blog_page ul {
+  list-style: none;
+}
+.blog_page span,
+.blog_page a {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50%;
+  /* border: 1px solid green; */
+  padding: 10px 17px;
+  /* background-color: #009f4d ;
+    color: #eeeeee; */
+}
+.blog_page span {
+  background-color: #009f4d;
+  color: #eeeeee;
+}
+.blog_page a {
+  color: #060606;
+}
+.trans {
+  transition: all 0.5s;
+}
+.trans:hover {
+  color: #fb811e;
+}
+.blog_page a:hover {
+  transition: all 0.5s;
+}
+.blog_page a:hover {
+  background-color: #009f4d;
+  color: #eeeeee;
+}

@@ -1,0 +1,8 @@
+                        --- ĐỒ ÁN CAPSTONE FARMSTEAD (LAYOUT 3:https://wp.w3layouts.com/farmstead/) BOOTCAMP 33 --- 
+
+
+
+Thành Viên {
+    Trần Hoàng Nhu: Home.html, About.html, Services.html.
+    Chung Minh Luân: BlogPosts.html, LandingPage.html, Contact.html.
+}

@@ -1,0 +1,117 @@
+/* header breadcrumb */
+.inner-banner {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.w3l-breadcrumb {
+  display: block;
+  margin: 0 auto;
+  z-index: 100;
+  z-index: 99;
+}
+.w3l-breadcrumb a{
+  font-size: 1.1rem;
+  color: #898989;
+}
+ul.breadcrumbs-custom-path a:hover {
+  opacity: 1;
+  color: #fb811e;
+}
+.w3l-breadcrumb p{
+  font-size: 1rem;
+}
+ul.breadcrumbs-custom-path {
+  line-height: 1.5;
+  color: #707070;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+ul.breadcrumbs-custom-path a {
+  font-weight: bold;
+}
+/* INDEX-SECTION */
+.services_index .area-box {
+  padding: 50px 35px;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 3%);
+}
+.services_index .area-box:hover {
+  transition: 0.3s;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 17%);
+}
+.services_index .area-box i {
+  font-size: 45px;
+  color: #fb811e;
+}
+.services_index h4 a.title-head {
+  margin-top: 25px;
+  display: block;
+  color: #060606;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-size: 22px;
+  letter-spacing: 0;
+}
+/* SECTION Why Choose Us */
+.grids_info span.fa {
+  font-size: 30px;
+  color: #fb811e;
+  margin-right: 10px;
+}
+.grids_info h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.radius-image {
+  border-radius: 30px;
+}
+.left-wthree-img {
+  left: -8%;
+}
+/*COUNTER STATS */
+.counter span.fa {
+  color: #009f4d;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: rgb(0 159 77 / 4%);
+  font-size: 32px;
+}
+.timer {
+  font-size: 3em;
+  font-weight: 600;
+  color: #060606;
+}
+p.count-text {
+  text-transform: uppercase;
+  color: #060606;
+  font-size: 17px;
+}
+/* SECTION PAGE COVER */
+.ServicesPageCover
+{   background: url(../../img/services-page/Services_pageCover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.ServicesPageCover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(8 8 8 / 44%);
+    z-index: -1;
+}
